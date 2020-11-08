@@ -6,7 +6,9 @@
     "dev:wx": "cross-env NODE_ENV=development UNI_PLATFORM=mp-weixin vue-cli-service uni-build --watch",
     "build:wx": "cross-env NODE_ENV=production UNI_PLATFORM=mp-weixin vue-cli-service uni-build",
     "dev:ap": "cross-env NODE_ENV=development UNI_PLATFORM=mp-alipay vue-cli-service uni-build --watch",
-    "build:ap": "cross-env NODE_ENV=production UNI_PLATFORM=mp-alipay vue-cli-service uni-build"
+    "build:ap": "cross-env NODE_ENV=production UNI_PLATFORM=mp-alipay vue-cli-service uni-build",
+    "dev:tt": "cross-env NODE_ENV=development UNI_PLATFORM=mp-toutiao vue-cli-service uni-build --watch",
+    "build:tt": "cross-env NODE_ENV=production UNI_PLATFORM=mp-toutiao vue-cli-service uni-build"
   },
   "dependencies": {
     "@dcloudio/uni-app-plus": "^2.0.0-29320201014001",
