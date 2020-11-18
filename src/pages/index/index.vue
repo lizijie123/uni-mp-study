@@ -1,9 +1,10 @@
 <template>
 	<view class="content">
-		<image class="logo" src="/static/logo.png"></image>
+    ci测试
+		<!-- <image class="logo" src="/static/logo.png"></image>
 		<view>
 			<text class="title">{{title}}</text>
-		</view>
+		</view> -->
 	</view>
 </template>
 
